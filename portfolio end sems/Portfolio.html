@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Helvetica", Arial, sans-serif;
+        color: #000;
+        line-height: 1.62;
+        font-size: 18px;
+        scroll-behavior: smooth;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding: 0 40px;
+        position: sticky;
+        top: 0px;
+        background: #ffffff;
+        z-index: 10;
+        border: 1px solid #e4e4e4;
+        width: 92%;
+        margin: 20px auto;
+        border-radius: 22px;
+        box-shadow: 0 6px 28px rgba(0, 0, 0, 0.1);
+      }
+
+      header nav a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 17px;
+        letter-spacing: 0.2px;
+      }
+
+      header nav a:hover {
+        color: #005cb8;
+      }
+
+      /* .about-image {
+        width: 100%;
+        max-width: 900px;
+        display: block;
+        margin: 30px auto;
+        border-radius: 16px;
+      } */
+
+      .about-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 40px 0;
+      }
+
+      /* .container {
+        padding: 60px 40px;
+        max-width: 1100px;
+        margin: auto;
+      } */
+
+      .container {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 40px 0;
+      }
+
+      /* h2 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-family: "Helvetica Medium";
+        letter-spacing: 0.3px;
+      }
+
+      .highlight {
+        color: #ffffff;
+        background: #005cb8;
+        padding: 2px 5px;
+        border-radius: 3px;
+        font-family: "Helvetica Medium";
+      } */
+
+      .hero-text {
+        text-align: center;
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-top: 120px;
+        font-family: "Helvetica", sans-serif;
+        margin-bottom: 260px;
+      }
+
+      .hero-text h1 {
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 1.25;
+        margin: 0;
+      }
+
+      .highlight {
+        background: #005cb8;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-weight: 500;
+      }
+
+      /* .blue-box {
+        background: linear-gradient(#cde2f8, #ffffff);
+        padding: 20px;
+        border-radius: 12px;
+        margin: 20px 0;
+        border: 1px solid #bbd4ee;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      } */
+
+      .intro-text {
+        font-size: 60px;
+        font-family: "Helvetica Medium";
+        line-height: 1.35;
+        letter-spacing: 0.3px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        max-width: 900px;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      .logo-img {
+        height: 50px;
+        width: auto;
+        object-fit: contain;
+        display: block;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 40px;
+        font-size: 20px;
+      }
+
+      .footer-line1 {
+        font-size: 64px;
+        font-family: "Helvetica Medium";
+      }
+
+      .footer-line2 {
+        font-size: 48px;
+        font-family: "Helvetica";
+        font-weight: 400;
+      }
+
+      .socials img {
+        width: 100px;
+        margin: 10px;
+      }
+
+      .behance img {
+        width: 50px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/images/logo.png" alt="Logo" class="logo-img" />
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="hero-text">
+      <h1>
+        An <span class="highlight">empathetic</span> and
+        <span class="highlight">thought-driven</span> person,
+      </h1>
+      <h1>
+        who adds <span class="highlight">value</span> to the designs that I
+        create.
+      </h1>
+    </div>
+
+    <img
+      class="about-image"
+      src="/images/about pg.png"
+      alt="About Section Image"
+    />
+
+    <div class="container" id="work">
+      <img src="/images/storybook 2.png" alt="storybook" />
+
+      <!-- <h2>Storybook Illustration</h2> -->
+      <img src="/images/storybook 1.png" alt="storybook" />
+      <!-- <p>
+        An illustrated storybook introducing children aged 6 to basics of Indian
+        Sign Language.
+      </p> -->
+
+      <!-- <h2>Wine Label Design</h2> -->
+      <img src="/images/label design.png" alt="wine label" />
+      <!-- <p>
+        This project involved designing a wine label and promotional poster
+        inspired by the Baroque art movement.
+      </p> -->
+
+      <!-- <h2>Digital Painting</h2> -->
+      <img src="/images/digital painting.png" alt="digital painting" />
+      <!-- <p>
+        A still‑life painting created from scratch in Photoshop, fully rendered
+        digitally.
+      </p> -->
+    </div>
+
+    <div class="footer" id="contact">
+      <p>
+        <span class="footer-line1">In need of impactful designs?</span><br />
+        <span class="footer-line2">Get in touch with me!</span>
+      </p>
+
+      <div class="socials">
+        <a href="mailto:tiyabhoj@gmail.com" target="_blank">
+          <img src="/images/gmail.png"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/tanisha-b-48154a317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          target="_blank"
+          ><img src="/images/linkedin.png"
+        /></a>
+        <a href="https://www.behance.net/tiyab" target="_blank"
+          ><img src="/images/behance.png" class="behance"
+        /></a>
+        <a
+          href="https://www.instagram.com/artworksoftiya?igsh=MTVpYTRuNzZpamc1dA%3D%3D&utm_source=qre"
+          target="_blank"
+          ><img src="/images/ig.png"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
